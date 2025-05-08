@@ -1,0 +1,42 @@
+// Base HTML font size
+html {
+  font-size: 62.5%; // 1rem = 10px
+}
+
+// Typography
+$font-family: "Plus Jakarta Sans", sans-serif;
+
+// Font Sizes (rem) and Line Heights (unitless)
+$heading-l-size: 5.6rem; // 56px
+$heading-l-line: 1.25; // 70px / 56px
+
+$heading-m-size: 4rem; // 40px
+$heading-m-line: 1.275; // 51px / 40px
+
+$heading-s-size: 3.2rem; // 32px
+$heading-s-line: 1.25; // 40px / 32px
+
+$body-m-size: 1.8rem; // 18px
+$body-m-line: 1.555; // 28px / 18px
+
+// Color Palette
+$color-purple: #755cde;
+$color-orange: #f6a560;
+$color-pink: #f39e9e;
+$color-salmon: #eb7565;
+$color-teal: #61c4b7;
+$color-plum: #552049;
+$color-black: #030303;
+$color-grey: #7a746e;
+$color-cream: #fff7f0;
+
+// Button States
+$button1-idle-bg: $color-black;
+$button1-hover-bg: $color-purple;
+
+$button2-idle-bg: $color-salmon;
+$button2-hover-bg: $color-orange;
+
+$arrow-idle-bg: $color-black;
+$arrow-hover-left-bg: $color-pink;
+$arrow-hover-right-bg: $color-purple;

@@ -1,0 +1,36 @@
+.header {
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
+  margin-bottom: 6.6rem;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site__logo {
+}
+.site__logo__image {
+}
+.btn {
+}
+.btn__orange {
+}
+.btn__dark {
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-bottom: 6.4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    margin-bottom: 3.2rem;
+  }
+  .site__logo__image {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+}

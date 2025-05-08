@@ -1,0 +1,30 @@
+.btn {
+  padding: 1.8rem 4.5rem;
+  border-radius: 2.8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.75;
+  color: $color-cream;
+  transition: 0.3s;
+}
+
+.btn__dark {
+  background-color: $color-black;
+
+  &:hover {
+    background-color: $color-purple;
+  }
+}
+.btn__orange {
+  background-color: #eb7565;
+
+  &:hover {
+    background-color: #f6a560;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btn {
+    padding: 0.9rem 2.8rem 0.9rem 2.7rem;
+  }
+}

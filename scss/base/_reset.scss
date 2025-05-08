@@ -26,6 +26,11 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: $body-m-size;
+  background-color: $color-cream;
+  line-height: $body-m-line;
+  overflow-x: hidden;
 }
 main {
   flex-grow: 1;
@@ -44,3 +49,20 @@ h1 {
 // margin, padding, border-radius, font-size, gap, -> rem;
 // width, heightni -> max va pxda bering.
 // line-height -> lh / font-size qilib bering.
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 1.6rem;
+  }
+  .container {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+}
