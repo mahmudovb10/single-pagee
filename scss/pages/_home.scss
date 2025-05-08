@@ -271,8 +271,11 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
   .author__work__title {
-    margin-left: 13rem;
+    width: 10.2rem;
+    height: 3rem;
+    margin-left: -8rem;
+    padding-left: -8rem;
   }
 }
