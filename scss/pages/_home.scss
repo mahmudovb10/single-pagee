@@ -277,4 +277,125 @@
     height: 3rem;
     margin-left: 3rem;
   }
+  .author__work__images {
+    max-width: 100%;
+    width: 24rem;
+    height: 15rem;
+  }
+}
+
+.footer {
+  width: 110rem;
+  height: 32rem;
+  border-radius: 1.3rem;
+  margin-top: 9.8rem;
+  margin-left: 40rem;
+  background-color: #030303;
+  margin-bottom: 9.8rem;
+}
+.footer__container {
+}
+.container {
+}
+.footer__content {
+}
+.footer__title {
+  width: 54rem;
+  height: 5rem;
+  font-size: 4rem;
+  line-height: 100%;
+  color: #fff7f0;
+  padding-top: 8.1rem;
+}
+.footer__description {
+  width: 54rem;
+  height: 8.4rem;
+  font-size: 1.8rem;
+  line-height: $body-m-line;
+  color: #fff7f0;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+}
+.footer__btn__data {
+  margin-left: 78.7rem;
+}
+.footer__btn {
+  width: 22.8rem;
+}
+
+@media screen and (max-width: 1893px) {
+  .footer {
+    width: 110rem;
+    height: 32rem;
+    margin-top: 9.8rem;
+    margin-left: 40rem;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .footer {
+    width: 69rem;
+    height: 36.2rem;
+    margin-left: 3.9rem;
+    margin-right: 3.9rem;
+  }
+  .footer__btn__data {
+    margin-top: 5rem;
+    margin-left: 18rem;
+    margin-bottom: 6.4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    width: 34.3rem;
+    height: 35.2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .footer__title {
+    width: 24rem;
+    height: 3.3rem;
+    font-size: 2.6rem;
+    line-height: 100%;
+  }
+  .footer__description {
+    width: 29.5rem;
+    height: 13rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+  .footer__btn {
+    width: 17.6rem;
+    height: 4.4rem;
+    margin-top: 2.4rem;
+    margin-left: -13rem;
+  }
+}
+
+.cta {
+}
+.cta__container {
+}
+.container {
+}
+.cta__content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6.4rem;
+}
+.site__logo__image {
+}
+.cta__btn {
+}
+.btn {
+}
+.btn__dark {
+}
+
+@media screen and (max-width: 450) {
+  .cta__content {
+    justify-content: space-between;
+    padding-bottom: 6.4rem;
+  }
 }
